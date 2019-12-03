@@ -1,0 +1,23 @@
+pythoncmd::String --path of python 2.7
+pythoncmd="/hgsc_software/python/python-2.7.2/bin/python"
+
+
+samt::String --path of samtools executable  
+samt="/hgsc_software/samtools/samtools-0.1.18/samtools" 
+
+bamt::String --path of bamtools executable 
+bamt="/hgsc_software/bamtools/latest/bin/bamtools" 
+
+phrap::String --path of phrap executable 
+phrap="/hgsc_software/finishing/bin/phrap"
+
+blastn::String --path of blast executable  
+blastn="/hgsc_software/ncbi-blast-2.2.26+/bin/blastn" 
+
+bdir::String --path of the reference from blasting against. It is necessary to prepare the reference files for running blast for this
+bdir="/stornext/snfs6/cancer-analysis/resources/references/human/hg19/hg19.fa" 
+
+intersectBed::String --path of intersectBed executable
+intersectBed="/hgsc_software/BEDTools/latest/bin/intersectBed" 
+
+
